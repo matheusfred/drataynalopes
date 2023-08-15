@@ -1,0 +1,14 @@
+<div class="col-md-12 store">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-lg-2 mt-3" dir-paginate="item in contents | itemsPerPage: 12">
+                    <img class="img-list animate-show mb-2" ng-src="{{item.image}}" fade-in>
+                    <h4>R$ {{item.valor}}</h4>
+                    <a class="store-name" ui-sref="store.item({itemID: $index, item})" >{{item.name}}</a>
+                </div>
+            </div>
+        </div>
+        <dir-pagination-controls   class="mt-2 mx-auto d-block" fade-in></dir-pagination-controls>
+    </div>
+</div>

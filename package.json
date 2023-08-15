@@ -1,0 +1,12 @@
+{
+  "name": "drtaynalopes.com",
+  "version": "1.0.0",
+  "description": "Website - drtaynalopes",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheusFred/drtaynalopes"
+  },
+  "author": "Matheus F. Frederico <maathe.f@gmail.com>",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-md-2">
+        <a class="btn btn-primary btn-lg" ui-sref="dashboard.new">New Item</a>
+    </div>
+
+    <div class="col-md-2">
+        <a class="btn btn-primary btn-lg" ui-sref="dashboard.list" ng-click="loadItems();">Items List</a>
+    </div>
+    
+    <div class="col-md-2">
+        <a class="btn btn-primary btn-lg" ui-sref="dashboard.scrap" ng-click="loadScraps();">Mensagens</a>
+    </div>	  
+    
+    <div class="col-md-2">
+        <a class="btn btn-primary btn-lg" ui-sref="dashboard.config">Config</a>
+    </div>    
+
+    <div class="transition col-md-12 pagebox" ui-view></div>
+</div>  
+     
+ 
